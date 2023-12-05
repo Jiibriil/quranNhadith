@@ -1,11 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  css: ["~/assets/css/tailwind.css"],
   modules: [
     "@nuxtjs/tailwindcss",
-    "nuxt-api-party",
     "@nuxtjs/google-fonts",
     "@vueuse/nuxt",
-    "@nuxtjs/kinde"
-  ]
-})
+    "@nuxtjs/kinde",
+    "radix-vue",
+    "nuxt-radash",
+  ],
+});

@@ -14,8 +14,4 @@
   </div>
 </template>
 
-<script setup lang="ts">
-definePageMeta({
-  middleware: ["auth-logged-in"],
-});
-</script>
+<script setup></script>
